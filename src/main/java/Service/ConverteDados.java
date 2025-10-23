@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ConverteDados implements ICinveterDados{
+
     private ObjectMapper mapper = new ObjectMapper ();
 
 
