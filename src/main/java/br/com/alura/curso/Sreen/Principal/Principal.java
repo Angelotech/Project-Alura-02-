@@ -88,9 +88,12 @@ public class Principal {
                 .forEach( e -> System.out.println(
                         "temporada: " + e.getTemporada() +
                                 "Episodio: " + e.getTitulo() +
-                                "Data lamçamento: "  + e.getDataLancamento().format(formatado)
+                                "Data lançamento: "  + e.getDataLancamento().format(formatado)
                         )
                 );
+
+
+
 
 
 
